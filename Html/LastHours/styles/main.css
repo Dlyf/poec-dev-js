@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.center {
+  text-align:center;
+}
+
+body {
+  background: #2f3542;
+}
+
+.mainTitle {
+  text-decoration: none;
+  color:#fff;
+}
+
+#wrapperIndex {
+  margin: 0 auto;
+  width: 75%;
+  background: #f1f2f6;
+  height: 1575px;
+}
+#wrapperAbout {
+  margin: 0 auto;
+  width: 75%;
+  background: #f1f2f6;
+  height: 480px;
+}
+#wrapperContact {
+  margin: 0 auto;
+  width: 75%;
+  background: #f1f2f6;
+  height: 550px;
+}
+
+header {
+  padding:10px 0px;
+  margin: 0 auto;
+  height:125px;
+  background: #34495e;
+}
+
+h1 {
+  text-align:center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+
+.plane {
+  color: #ff6348;
+}
+
+nav ul {
+  margin-top:20px;
+  list-style-type:none;
+  text-align:center;
+  margin-left:-100px;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid;
+  margin-left: 100px;
+  padding:5px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+nav ul li a:hover {
+  color: #ff6348;
+}
+
+#content {
+  padding: 50px;
+}
+
+.left {
+  float:left;
+  width:45%;
+  padding:20px;
+}
+
+.right {
+  float:right;
+  padding:20px;
+  width:45%;
+}
+
+.clear {
+  clear: both;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  margin-bottom:25px;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+p.descr {
+  text-align: justify;
+}
+
+.polaroid-images a {
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 3.1% 50px 20px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+  position:relative;
+  color: #2f3542;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.polaroid-images a:hover {
+  transform: scale(1.1);
+}
+
+.polaroid-images a:after {
+	color: #333;
+	font-size: 20px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.polaroid-images img {
+	display: block;
+	width: inherit;
+}
+
+.price {
+  font-weight:bold;
+  font-size: 24px;
+  color: #ff6348;
+}
+
+footer {
+  height:50px;
+  background: #ff6348;
+  color:#fff;
+}

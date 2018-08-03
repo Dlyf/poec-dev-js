@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cousine', monospace;
+  color: #fff;
+}
+
+body {
+  background: #c0392b;
+}
+
+button:focus {
+  outline:0;
+}
+
+
+.center {
+  text-align: center;
+}
+
+#wrapper {
+  width: 95%;
+  margin: 100px auto;
+}
+
+#magic {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background: #fff;
+}
+
+#demo {
+  background: #2c3e50;
+  border: none;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+#demo:active {
+  color: #2c3e50;
+  background: #fff;
+}
+
+#demo:hover {
+  cursor: pointer;
+}
+
+#menu, option {
+  color: #2c3e50;
+}
+
+#menu {
+  width: 150px;
+  margin: 0 auto;
+}

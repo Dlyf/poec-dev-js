@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Chifoumi 2.0</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="title center">Chifoumi 2.0</h1>
+  </header>
+  <section id="main">
+    <div class="button-wrapper center">
+      <button class="butt" onClick="startGame(1)"><i class="fa fa-hand-grab-o"></i></button>
+      <button class="butt" onClick="startGame(2)"><i class="fa fa-hand-paper-o"></i></button>
+      <button class="butt" onClick="startGame(3)"><i class="fa fa-hand-peace-o"></i></button>
+    </div>
+    <div class="score-wrapper">
+      <p class="score center">User Score : <span id="userScore">0</span> - VS - CPU Score : <span id="cpuScore">0</span></p>
+    </div>
+    <footer class="center">
+      <img class="sn-link" src="img/facebook.svg" alt="fb-logo" width="50">
+      <img class="sn-link" src="img/twitter.svg" alt="twitter-logo" width="50">
+      <img class="sn-link" src="img/linkedin.svg" alt="linkedin-logo" width="50">
+    </footer>
+  </section>
+  <section id="temp">
+    <p id="stmt" class="center"></p>
+    <p id="result" class="center"></p>
+  </section>
+  <script src="vendors/jquery-ui/external/jquery/jquery.js"></script>
+  <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
