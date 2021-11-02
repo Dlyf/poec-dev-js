@@ -155,4 +155,4 @@ var displayUsers = function (arr) {
       }
   }
 };
-// displayUsers(users);
+displayUsers(users);

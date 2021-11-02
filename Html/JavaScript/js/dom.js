@@ -1,14 +1,14 @@
 // Positionnement du flag
-toogle = false;
+toogle = true;
 
 // Séléction de l'élément bouton par son id
 var btn = document.getElementById('toogle');
 
 // Déclenchement d'une fonction sur l'évenement "clic"
 
-btn.onclick = function () {
-  toogleThis();
-}
+// btn.onclick = function () {
+//   toogleThis();
+// }
 
 
 
